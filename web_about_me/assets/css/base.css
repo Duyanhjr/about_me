@@ -1,0 +1,33 @@
+
+* {
+    /* box-sizing: là thuộc tính định nghĩa chiều rộng và chiều cao của một phần tử: chúng có bao gồm phần đệm, viền hay không
+    inherit: kế thừa thuộc tính của phần tử cha của phần tử đó
+    */
+    box-sizing: inherit;
+}
+
+:root {
+    
+    --header-color: #000D20;
+    --hover-color: rgb(0, 140, 255);
+    --header-text-color: #fff;
+    --text-color: #666;
+    --header-height: 72px;
+    --margin-top-container: calc(var(--header-height) + 32px)
+}
+
+
+html {
+    /* Mặc định font-size: 100% = 16px */
+    /* font-size: 62.5% = 10px */
+    /* Đơn vị dùng trong thẻ html sẽ dùng với đơn vị rem */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    box-sizing: border-box;
+}
+
