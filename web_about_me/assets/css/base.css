@@ -1,19 +1,28 @@
-
 * {
     /* box-sizing: là thuộc tính định nghĩa chiều rộng và chiều cao của một phần tử: chúng có bao gồm phần đệm, viền hay không
     inherit: kế thừa thuộc tính của phần tử cha của phần tử đó
     */
-    box-sizing: inherit;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 :root {
-    
-    --header-color: #000D20;
-    --hover-color: rgb(0, 140, 255);
+
+    --main-color: #8B0000;
     --header-text-color: #fff;
-    --text-color: #666;
     --header-height: 72px;
-    --margin-top-container: calc(var(--header-height) + 32px)
+    --padding-top-container: calc(var(--header-height) + 80px);
+    --padding-bottom-container: 80px;
+    --padding-top-contact: 20px;
+    --padding-social-title: 8px;
+    --padding-social-list: calc(calc(var(--padding-top-contact) * 2) + calc(calc(var(--padding-social-title) * 2)));
+    /* ---------------------------- */
+    --background-color: #F7D682;
+    --hover-color: #F7D682;
+    --text-footer-color: #666;
+    --text-color: #4b382d;
+    --background-text-color: #f5f5dc;
 }
 
 
@@ -31,3 +40,19 @@ html {
     box-sizing: border-box;
 }
 
+/* css dùng nhiều lần */
+.background-text {
+    background-color: var(--background-text-color);
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 2px #333;
+}
+
+.margin-top-rows {
+    margin-top: 20px;
+}
