@@ -17,6 +17,7 @@
     --padding-top-contact: 20px;
     --padding-social-title: 8px;
     --padding-social-list: calc(calc(var(--padding-top-contact) * 2) + calc(calc(var(--padding-social-title) * 2)));
+    --padding-42px: 42px;
     /* ---------------------------- */
     --background-color: #F7D682;
     --hover-color: #F7D682;
@@ -55,4 +56,8 @@ html {
 
 .margin-top-rows {
     margin-top: 20px;
+}
+
+.padding-42px {
+    padding: 42px;
 }

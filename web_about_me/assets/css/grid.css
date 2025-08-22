@@ -12,7 +12,7 @@ body {
 
 /* wide: chiều dài tối đa của phần chính */
 .grid.wide {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
