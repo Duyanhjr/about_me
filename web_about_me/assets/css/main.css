@@ -149,6 +149,7 @@
 
 .container__info-box {
     padding: var(--padding-42px);
+
 }
 
 .container__box {
@@ -182,6 +183,7 @@
     font-weight: 500;
     text-align: justify;
     color: var(--text-color);
+    line-height: 2.5rem;
 }
 
 .container__image-my-self {
@@ -348,7 +350,7 @@
 }
 
 .container__work-about-text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -407,6 +409,130 @@
     margin: 10px 0;
 
 }
+
+/* Container Project */
+.container__project {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: var(--main-color);
+
+}
+
+.container__project-text {
+    font-size: 1.8rem;
+    color: var(--background-color);
+}
+
+.container__project-des-text {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: var(--main-color);
+    font-size: 1.5rem;
+    color: var(--background-color);
+}
+
+.container__project-title {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--text-color);
+    text-transform: uppercase;
+}
+
+
+
+.container__project-link {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: var(--background-text-color);
+    padding-bottom: 30px;
+    margin: 10px 0;
+    box-shadow: 1px 1px 5px #777;
+
+    transition: box-shadow 0.3s linear;
+}
+
+.container__project-link:hover {
+    box-shadow: 1px 1px 20px #777;
+
+}
+
+.container__project-image {
+    position: relative;
+    padding-top: 50%;
+    width: 100%;
+}
+
+/* work */
+
+.container__project-parent-image-work>.col:nth-child(1) .container__project-image {
+    background: url('/assets/img/shopee_img.jpg') top center / cover no-repeat;
+}
+
+.container__project-parent-image-work>.col:nth-child(2) .container__project-image {
+    background: url('/assets/img/the_band.jpg') top center / cover no-repeat;
+}
+
+.container__project-parent-image-work>.col:nth-child(3) .container__project-image {
+    background: url('/assets/img/weather_img.jpg') top center / cover no-repeat;
+}
+
+.container__project-parent-image-work>.col:nth-child(4) .container__project-image {
+    background: url('/assets/img/do_da_dung_img.jpg') top center / cover no-repeat;
+}
+
+/* fun */
+
+.container__project-parent-image-fun>.col:nth-child(1) .container__project-image {
+    background: url('/assets/img/shopee_img.jpg') top center / cover no-repeat;
+}
+
+.container__project-parent-image-fun>.col:nth-child(2) .container__project-image {
+    background: url('/assets/img/the_band.jpg') top center / cover no-repeat;
+}
+
+.container__project-parent-image-fun>.col:nth-child(3) .container__project-image {
+    background: url('/assets/img/weather_img.jpg') top center / cover no-repeat;
+}
+
+.container__project-parent-image-fun>.col:nth-child(4) .container__project-image {
+    background: url('/assets/img/do_da_dung_img.jpg') top center / cover no-repeat;
+}
+
+.container__project-name {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 30px 0;
+    padding: 0 20px;
+    color: var(--background-color);
+    text-shadow: 1px 1px 1px #999;
+
+}
+
+.container__project-des {
+    font-size: 1.7rem;
+    margin-top: 30px;
+    padding: 0 20px;
+    color: var(--text-color);
+    display: block;
+    /* Dành cho trình duyệt không supprort */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    /* -webkit-line-clamp: 1; */
+    /* display: -webkit-box; */
+    /* -webkit-box-orient: vertical;*/
+}
+
+
 
 /* ---------------------------------------- */
 
