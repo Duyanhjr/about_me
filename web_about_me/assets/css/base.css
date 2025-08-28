@@ -58,6 +58,14 @@ html {
     margin-top: 20px;
 }
 
+.margin-bottom-cols {
+    margin-bottom: 36px;
+}
+
 .padding-42px {
     padding: 42px;
+}
+
+.border-left {
+    border-left: 2px solid var(--text-footer-color);
 }

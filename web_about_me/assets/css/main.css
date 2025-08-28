@@ -532,6 +532,71 @@
     /* -webkit-box-orient: vertical;*/
 }
 
+/* Container certificate */
+
+.container__certificate-title {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    background-color: var(--main-color);
+    color: var(--background-color);
+}
+
+.container__certificate-des {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: var(--main-color);
+    font-size: 1.5rem;
+    color: var(--background-color);
+}
+
+.container__certificate-box {
+    background-color: var(--background-text-color);
+    padding: 20px;
+    display: flex;
+}
+
+.text-align-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
+}
+
+.container__certificate-link {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.container__certificate-info {
+    padding: 0 20px;
+}
+
+.container__certificate-name {
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.container__certificate-born {
+    display: flex;
+    margin-top: 10px;
+}
+
+.container__certificate-date {
+    font-size: 1.4rem;
+    
+}
+
+.container__certificate-receiving-place {
+    font-size: 1.4rem;
+    margin-right: 20px;
+
+}
 
 
 /* ---------------------------------------- */
