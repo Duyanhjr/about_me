@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who is me?</title>
+    <!-- resetCss -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/grid.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-free-6.7.2-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <nav class="header__nav">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-5">
+
+                        <a href="/index.html" class="header__nav-logo-link">
+                            <img src="/assets/img/logo_it_spider.png" alt="Logo_about_me" class="header__nav-logo">
+                        </a>
+
+                    </div>
+
+                    <div class="col l-7">
+
+                        <div class="header__nav-navigation">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a href="/index.html" class="header__nav-link no-wrap-text">Giới thiệu</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="/pages/works.html" class="header__nav-link no-wrap-text">Công việc</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="/pages/projects.html" class="header__nav-link no-wrap-text">Dự án</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="/pages/certificates.html" class="header__nav-link no-wrap-text">Chứng
+                                        chỉ</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="/pages/resume.html" class="header__nav-link no-wrap-text">Sơ yếu lí
+                                        lịch</a>
+                                </li>
+
+                                <label for="open-search">
+                                    <i id="icon-search"
+                                        class="header__nav-icon-search fa-solid fa-magnifying-glass"></i>
+                                </label>
+
+                                <input type="checkbox" hidden id="open-search" class="search-bar-checkbox">
+
+                                <div class="header__nav-search">
+                                    <input class="header__nav-input-search" type="text" placeholder="Tìm kiếm">
+                                    <i class="header__nav-icon-btn-search fa-solid fa-magnifying-glass"></i>
+                                </div>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="container__resume-label">
+                            <ul id="list-cv" class="container__resume-list-cv">
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-9">
+                        <div class="container__resume-box">
+                            <div class="container__resume-title-and-pdf">
+                                <div class="container__resume-title">MyCV</div>
+                                <div class="container__resume-pdf">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                </div>
+                            </div>
+                            <div class="container__resume-des">
+                                Đây là cv về thông tin cá nhân của tôi, ở đây bao gồm tất cả những gì mà các bên tuyển
+                                dụng muốn biết về bản thân tôi. Chúng ta có thể xem qua được chứ.
+                            </div>
+                        </div>
+
+                        <div id="container-mycv" class="container__resume-mycv">
+                            <div id="basics"
+                                class="container__resume background-text box-shadow border-radius margin-top-rows">
+                                <div class="container__resume-mycv-title">Thông tin cơ bản</div>
+                                <div class="container__resume-mycv-box">
+
+                                </div>
+                            </div>
+                            <div id="work"
+                                class="container__resume background-text box-shadow border-radius margin-top-rows">
+                                <div class="container__resume-mycv-title">Công việc</div>
+                                <div class="container__resume-mycv-box">
+                                    <div class="container__resume-mycv-box-name">David Bui</div>
+                                    <div class="container__resume-mycv-box-name">Lập trình viên</div>
+                                    <div class="container__resume-mycv-box-name">Email</div>
+                                    <div class="container__resume-mycv-box-name">Di động</div>
+                                    <div class="container__resume-mycv-box-name">Url</div>
+                                    <div class="container__resume-mycv-box-name">Tóm tắt</div>
+                                </div>
+                            </div>
+                            <div id="education"
+                                class="container__resume background-text box-shadow border-radius margin-top-rows">
+                                <div class="container__resume-mycv-title">Giáo dục</div>
+                                <div class="container__resume-mycv-box">
+                                    <div class="container__resume-mycv-timeline"></div>
+                                    <div class="container__resume-mycv-container"></div>
+                                </div>
+                            </div>
+                            <div id="certificates"
+                                class="container__resume background-text box-shadow border-radius margin-top-rows">
+                                <div class="container__resume-mycv-title">Chứng chỉ</div>
+                                <div class="container__resume-mycv-box">
+                                    <div class="row">
+                                        <div class="col l-6">
+                                            <div class="container__resume-mycv-certificate-name"></div>
+                                            <div class="container__resume-mycv-certificate-box">
+                                                <div class="container__resume-mycv-certificate-name"></div>
+                                                <div class="container__resume-mycv-certificate-time"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="skills"
+                                class="container__resume background-text box-shadow border-radius margin-top-rows">
+                                <div class="container__resume-mycv-title">Kĩ năng</div>
+                                <div class="container__resume-mycv-box">
+                                    <div class="container__resume-mycv-skill-title"></div>
+                                </div>
+                            </div>
+                            <div id="languages"
+                                class="container__resume background-text box-shadow border-radius margin-top-rows">
+                                <div class="container__resume-mycv-title">Ngôn ngữ</div>
+                                <div class="container__resume-mycv-box">
+
+                                </div>
+                            </div>
+                            <div id="referances"
+                                class="container__resume background-text box-shadow border-radius margin-top-rows">
+                                <div class="container__resume-mycv-title">Tài liệu tham khảo</div>
+                                <div class="container__resume-mycv-box">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__text">
+                © Copyright 2025 <a class="footer__link" target="_blank" href="https://github.com/Duyanhjr">David
+                    Bui</a>. Hosted by <a class="footer__link" target="_blank"
+                    href="https://docs.github.com/en/pages">GitHub Pages</a>. From <a class="footer__link"
+                    target="_blank" href="https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam">Việt Nam</a>.
+            </div>
+        </footer>
+
+    </div>
+    <script src="/assets/js/list_item_cv.js"></script>
+</body>
+
+</html>

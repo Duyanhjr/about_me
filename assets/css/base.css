@@ -1,0 +1,77 @@
+* {
+    /* box-sizing: là thuộc tính định nghĩa chiều rộng và chiều cao của một phần tử: chúng có bao gồm phần đệm, viền hay không
+    inherit: kế thừa thuộc tính của phần tử cha của phần tử đó
+    */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+    --main-color: #8B0000;
+    --header-text-color: #fff;
+    --header-height: 72px;
+    --padding-top-container: calc(var(--header-height) + 80px);
+    --padding-bottom-container: 80px;
+    --padding-top-contact: 20px;
+    --padding-social-title: 8px;
+    --padding-social-list: calc(calc(var(--padding-top-contact) * 2) + calc(calc(var(--padding-social-title) * 2)));
+    --padding-42px: 42px;
+    /* ---------------------------- */
+    --background-color: #F7D682;
+    --hover-color: #F7D682;
+    --text-footer-color: #666;
+    --text-color: #4b382d;
+    --background-text-color: #f5f5dc;
+}
+
+
+html {
+    /* Mặc định font-size: 100% = 16px */
+    /* font-size: 62.5% = 10px */
+    /* Đơn vị dùng trong thẻ html sẽ dùng với đơn vị rem */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    box-sizing: border-box;
+}
+
+/* css dùng nhiều lần */
+.background-text {
+    background-color: var(--background-text-color);
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--text-footer-color);
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 2px #999;
+}
+
+.margin-top-rows {
+    margin-top: 20px;
+}
+
+.margin-bottom-cols {
+    margin-bottom: 36px;
+}
+
+.padding-42px {
+    padding: 42px;
+}
+
+.border-left {
+    height: auto;
+    width: 100%;
+    border-left: 2px solid var(--text-footer-color);
+}
