@@ -469,37 +469,37 @@
 /* work */
 
 .container__project-parent-image-work>.col:nth-child(1) .container__project-image {
-    background: url('./assets/img/shopee_img.jpg') top center / cover no-repeat;
+    background: url('../img/shopee_img.jpg') top center / cover no-repeat;
 }
 
 .container__project-parent-image-work>.col:nth-child(2) .container__project-image {
-    background: url('./assets/img/the_band.jpg') top center / cover no-repeat;
+    background: url('../img/the_band.jpg') top center / cover no-repeat;
 }
 
 .container__project-parent-image-work>.col:nth-child(3) .container__project-image {
-    background: url('./assets/img/weather_img.jpg') top center / cover no-repeat;
+    background: url('../img/weather_img.jpg') top center / cover no-repeat;
 }
 
 .container__project-parent-image-work>.col:nth-child(4) .container__project-image {
-    background: url('./assets/img/do_da_dung_img.jpg') top center / cover no-repeat;
+    background: url('../img/do_da_dung_img.jpg') top center / cover no-repeat;
 }
 
 /* fun */
 
 .container__project-parent-image-fun>.col:nth-child(1) .container__project-image {
-    background: url('./assets/img/shopee_img.jpg') top center / cover no-repeat;
+    background: url('../img/shopee_img.jpg') top center / cover no-repeat;
 }
 
 .container__project-parent-image-fun>.col:nth-child(2) .container__project-image {
-    background: url('./assets/img/the_band.jpg') top center / cover no-repeat;
+    background: url('../img/the_band.jpg') top center / cover no-repeat;
 }
 
 .container__project-parent-image-fun>.col:nth-child(3) .container__project-image {
-    background: url('./assets/img/weather_img.jpg') top center / cover no-repeat;
+    background: url('../img/weather_img.jpg') top center / cover no-repeat;
 }
 
 .container__project-parent-image-fun>.col:nth-child(4) .container__project-image {
-    background: url('./assets/img/do_da_dung_img.jpg') top center / cover no-repeat;
+    background: url('../img/do_da_dung_img.jpg') top center / cover no-repeat;
 }
 
 .container__project-name {
