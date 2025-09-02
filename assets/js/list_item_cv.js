@@ -28,7 +28,7 @@ var totalItemCV =``;
 
 for(i = 0; i < itemCv.length; i++) {
     totalItemCV +=`<li class="container__resume-item-cv">
-        <label for="#${itemCv[i]}">${itemCvVn[i]}<label>
+        <a class="container__resume-item-link" href="#${itemCv[i]}">${itemCvVn[i]}<a>
     </li>`
 }
 

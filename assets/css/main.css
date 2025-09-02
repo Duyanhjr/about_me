@@ -469,37 +469,37 @@
 /* work */
 
 .container__project-parent-image-work>.col:nth-child(1) .container__project-image {
-    background: url('../img/shopee_img.jpg') top center / cover no-repeat;
+    background: url(../img/shopee_img.jpg) top center / cover no-repeat;
 }
 
 .container__project-parent-image-work>.col:nth-child(2) .container__project-image {
-    background: url('../img/the_band.jpg') top center / cover no-repeat;
+    background: url(../img/the_band.jpg) top center / cover no-repeat;
 }
 
 .container__project-parent-image-work>.col:nth-child(3) .container__project-image {
-    background: url('../img/weather_img.jpg') top center / cover no-repeat;
+    background: url(../img/weather_img.jpg) top center / cover no-repeat;
 }
 
 .container__project-parent-image-work>.col:nth-child(4) .container__project-image {
-    background: url('../img/do_da_dung_img.jpg') top center / cover no-repeat;
+    background: url(../img/do_da_dung_img.jpg) top center / cover no-repeat;
 }
 
 /* fun */
 
 .container__project-parent-image-fun>.col:nth-child(1) .container__project-image {
-    background: url('../img/shopee_img.jpg') top center / cover no-repeat;
+    background: url(../img/shopee_img.jpg) top center / cover no-repeat;
 }
 
 .container__project-parent-image-fun>.col:nth-child(2) .container__project-image {
-    background: url('../img/the_band.jpg') top center / cover no-repeat;
+    background: url(../img/the_band.jpg) top center / cover no-repeat;
 }
 
 .container__project-parent-image-fun>.col:nth-child(3) .container__project-image {
-    background: url('../img/weather_img.jpg') top center / cover no-repeat;
+    background: url(../img/weather_img.jpg) top center / cover no-repeat;
 }
 
 .container__project-parent-image-fun>.col:nth-child(4) .container__project-image {
-    background: url('../img/do_da_dung_img.jpg') top center / cover no-repeat;
+    background: url(../img/do_da_dung_img.jpg) top center / cover no-repeat;
 }
 
 .container__project-name {
@@ -608,6 +608,12 @@
     text-transform: capitalize;
 }
 
+.container__resume-item-link {
+    padding: 10px 70px 10px 0px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 .container__resume-item-cv:hover {
     border-left: 2px solid var(--main-color);
     color: var(--main-color);
@@ -647,7 +653,11 @@
 }
 
 .container__resume {
-    
+    padding: 26px 26px 26px 16px;
+}
+
+.container__resume-mycv-title{
+    font-size: 2rem;
 }
 
 /* ---------------------------------------- */
