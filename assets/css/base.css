@@ -3,7 +3,7 @@ html {
     /* font-size: 62.5% = 10px */
     /* Đơn vị dùng trong thẻ html sẽ dùng với đơn vị rem */
     font-size: 62.5%;
-    line-height: 1.6rem;
+    line-height: 2rem;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
